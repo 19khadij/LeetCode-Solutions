@@ -1,7 +1,7 @@
 from typing import List
 
 
-Time Complexity is O(n^2)
+#Time Complexity is O(n^2)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(0,len(nums)):
@@ -9,7 +9,7 @@ class Solution:
                 if nums[i]+nums[j]==target:
                     return [i,j]
                 
-Time Complexity is O(n)
+#Time Complexity is O(n)
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen = {}  
